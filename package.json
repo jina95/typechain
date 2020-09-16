@@ -7,6 +7,7 @@
   "author": "jina95 <spzn02@gmail.com>",
   "license": "MIT",
   "dependencies": {
+    "crypto-js": "^4.0.0",
     "typescript": "^4.0.2"
   },
   "scripts": {
