@@ -1,0 +1,11 @@
+//  어떻게 자바스크립트로 변환할것인지 알려주고, 옵션을 준다.
+{
+    "compilerOptions": {
+         "module": "commonjs", // 다양한 것들을 import export  할 수 있게 만들어줌 
+         "target": "ES2015", //  어떤 버전의  js 로 컴파일 되고 싶은지 적음
+         "sourceMap":  true // sourceMap  처리를 하고 싶은지 알려준다
+    },
+    // 어떤 파일들이 컴파일 과정에 포함되는지 타입스크립트에게 알려준다 
+    "include": ["index.ts"], //  컴파일 과정에 포함할 파일의 배열을 적는다.
+    "exclude": ["node_modules"]
+}
